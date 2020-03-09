@@ -48,7 +48,9 @@ function total() {
 function removeFromCart(item) {
   // need to iterate through cart to find the item
   for (let i = 0; i < cart.length; i++) {
-    
+    if (item === cart[i].itemName) {
+      delete cart[i].itemName;
+    }
   }
 }
 
