@@ -28,7 +28,6 @@ function viewCart() {
      list.push(`${cart[i].itemName} at $${cart[i].itemPrice}`);
     }
     console.log(list);
-    // bare with me here
     if (list.length == 1) {
       return `In your cart, you have ${list[0]}.`;
     } else if (list.length == 2) {
