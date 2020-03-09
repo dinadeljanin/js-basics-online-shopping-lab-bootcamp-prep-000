@@ -46,7 +46,10 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // need to iterate through cart to find the item 
+  // need to iterate through cart to find the item
+  for (let i = 0; i < cart.length; i++) {
+    
+  }
 }
 
 function placeOrder(cardNumber) {
