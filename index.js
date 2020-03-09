@@ -51,7 +51,7 @@ function removeFromCart(item) {
     if (item === cart[i].itemName) {
       delete cart[i].itemName;
     } else {
-      return 
+      return `This item is not in your cart`;
     }
   }
 }
