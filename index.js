@@ -30,7 +30,7 @@ function viewCart() {
      if (list.length == 1) {
        return `In your cart, you have ${list[0]}.`;
      } else if (list.length > 2) {
-       return `In your cart, you have ${list.slice(0, list.length-1)} and ${list[list.length-1].`;
+       return `In your cart, you have ${list.slice(0, list.length-1)} and ${list[list.length-1]}.`;
        
      }
    }
