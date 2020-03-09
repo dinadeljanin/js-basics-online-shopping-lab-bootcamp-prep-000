@@ -26,7 +26,8 @@ function viewCart() {
   } else {
    for (let i = 0; i < cart.length; i++) {
      list.push(`${cart[i].itemName} at $${cart[i].itemPrice}`);
-    } if (list.length == 1) {
+    }
+    if (list.length == 1) {
       return `In your cart, you have ${list[0]}.`;
     } else if (list.length == 2) {
       return `In your cart, you have ${list[0]}, and ${list[1]}.`;
