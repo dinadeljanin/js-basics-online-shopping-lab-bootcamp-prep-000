@@ -29,7 +29,7 @@ function viewCart() {
     // bare with me here
      if (list.length == 1) {
        return `In your cart, you have ${list[0]}.`;
-     } else if (list.length == 2) {
+     } else if (list.length > 2) {
        
      }
    }
