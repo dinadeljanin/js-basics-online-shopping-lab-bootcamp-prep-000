@@ -35,7 +35,6 @@ function viewCart() {
       return `In your cart, you have ${list[0]}, and ${list[1]}.`;
     } else if (list.length > 2) {
       return `In your cart, you have ${list.slice(0, list.length-1).join(', ')}, and ${list[list.length-1]}.`; 
-      // oh god it worked
     }
   }
 }
