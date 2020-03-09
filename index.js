@@ -50,6 +50,8 @@ function removeFromCart(item) {
   for (let i = 0; i < cart.length; i++) {
     if (item === cart[i].itemName) {
       delete cart[i].itemName;
+    } else {
+      return 
     }
   }
 }
